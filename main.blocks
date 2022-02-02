@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="8]#?6{LvVq5j_V7`Z54v" x="38" y="21"><statement name="HANDLER"><block type="device_show_leds" id="fH8T$mrNM~FQ)=Wm{a?4"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        # . # . # 
+        # . # . # 
+        # . # . #
+        `</field><next><block type="device_pause" id="rGP-gn/H%mx/lROr.z8X"><value name="pause"><shadow type="timePicker" id="zdn,e7#LTW^9;:O~mg8Q"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="5r.@H?5]{y3h_x0!.ax*"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="`*p$[!FNRG,j!wi.Th,b"><value name="pause"><shadow type="timePicker" id="`wDo=HWh.LTJtEhzvP}x"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="]$4gIig5FhR%$=KM,x%w"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . . . 
+        . # . . . 
+        . # # # .
+        `</field><next><block type="device_pause" id="!n74w**0E@@g*!H*$:}v"><value name="pause"><shadow type="timePicker" id="nF?r;=TJc6j4t6*v08q0"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="|Yl7:]8oDOLDY2GfTt6I"><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . . #
+        `</field><next><block type="device_pause" id="TSMhk$v8frLKocRUC!^j"><value name="pause"><shadow type="timePicker" id="x=)gWk]a9@}b03[^^OHO"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="0Z=+51{*5%ix#k1l?gn%"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # . # . 
+        . # # # .
+        `</field><next><block type="device_pause" id="J6t%K6PZC*[4lL_7|0`k"><value name="pause"><shadow type="timePicker" id="0;L,`gej-2!%nK}Sb1RJ"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="v+P2@Wy$Bts?Wu]673?A"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        . # # # . 
+        . # . # . 
+        . # # # .
+        `</field><next><block type="device_pause" id=";Iu@KB}/oZOY6q;iMyh#"><value name="pause"><shadow type="timePicker" id="B1W2mWkN~7)Vw:lIQ*8P"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="p#Ydl=T.;kA#ncu3;?VZ"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="gIXP9wAD~FVqRi=aeLYu"><value name="pause"><shadow type="timePicker" id="7Ezfr5X5}{5Y0:U!w]h="><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="~ZVCYT)^rCR]cyzE46+#"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="basic_show_icon" id="}%{~EVhKTn--5Oy06U#$"><field name="i">IconNames.Heart</field><next><block type="device_pause" id="m]ko?|a]%L(%o_,/5Kc-"><value name="pause"><shadow type="timePicker" id=":CPC|v[,O%U~WTT.6Az;"><field name="ms">5000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="m_SV)W*2n;H#BZ0q(1]$" x="345" y="1875"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="synth_set_volume" id="FfP1zB7.)VVMO;kA.n_."><value name="volume"><shadow type="math_number_minmax" id="%Jxl8])Mrh.qXI}?G.7:"><mutation min="0" max="255" label="Volume" precision="0"/><field name="SLIDER">127</field></shadow></value><next><block type="playMelody" id="+w:*xLf+LvSie|*v#aHF"><value name="melody"><shadow type="melody_editor" id="bo|Bu-:AJoAsj{v.`y:5"><field name="melody">"B A G A G F A C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="*Qa^0(V6AK@sPdbKu-Ad"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block></xml>
